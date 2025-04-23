@@ -1,0 +1,30 @@
+.servico{
+    display: flex;
+    flex-direction: column;
+}
+
+.servico .main-titulo{
+    text-align: center;
+
+}
+
+.servico .card__container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: stretch;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+
+.servico .card__item{
+    width: 250px;
+
+    border: 1px solid #fff;
+}
+
+.card__item img{
+    width: 90px;
+}
